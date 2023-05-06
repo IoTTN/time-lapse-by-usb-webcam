@@ -1,0 +1,2 @@
+ffmpeg -framerate 30 -i image%08d.jpg -vf "format=yuv420p" day_by_day.mp4
+
